@@ -21,11 +21,17 @@ Fine particulate matter (PM2.5): Matter that is 2.5 microns in diameter or less.
 
 An HC-06 Bluetooth module will be connected to the RX and TX communication lines of the Arduiono with a voltage divider as the module operates on 3.3v while the module is powered with 5v. An SSD1306 1 inch monochrome OLED display is also used to display information about the current values of measurements using the SDA and SCL lines to communicate with the Arduino. A power bank was also added so it can be soldered as Blue Air is not powered by a power cable but 4xAA rechargeable batteries in series will be the power supply, giving approximately outputting 5 volts to the system. Both HC-06 and SSD1306 did not have a model in Altium Designer as such a model had to be made with Altium component designer.
 
+![Circuit diagram](https://github.com/DragonflyValkyrie/air-quality-monitor/blob/main/images/circuit.png)
+
 ## PCB Diagram
+
+![PCB diagram](https://github.com/DragonflyValkyrie/air-quality-monitor/blob/main/images/PCB.png)
 
 ## App Display
 
 The app has four screens, the first screen is to strictly establish a bluetooth connection with Blue Air, ensuring bluetooth is enabled and has the ability to be enabled within the app asking permission in doing so. It also shows the real time status of the Bluetooth state as well as the page where the user can choose what device to connect to via Bluetooth. Once connected the user can view the information page leading into another screen where visual information is presented in numeric format with the addition of a status bar and a button to display a graph with the measurement of the user’s choosing.
+
+![App displays](https://github.com/DragonflyValkyrie/air-quality-monitor/blob/main/images/App.png)
 
 ## Functions Of The Arduino
 
