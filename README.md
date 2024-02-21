@@ -6,7 +6,7 @@ An air qualitiy monitor using an Arduino Pro Mini. This was used as a capstone p
 
 A DIY air quality monitor with Bluetooth technology. This allows users to be able to access the information from the sensors anywhere within the Bluetooth connectivity range. They can also change the display to a cheaper alternative and have a small monochrome display for users who wish to receive basic information without the use of their smartphone.
 
-    The Bluetooth connectivity uses the flutter_bluetooth_serial library from pub.dev created by AgainPsychoX with the help of contributors, Eduardo Folly, Martin Mauch ,and Patryk Ludwikowski. This library uses serial port profile for moving data over RFCOMM and is used for Bluetooth Classic devices such as the HC-06. Some code has been referenced or used from the example on Github in this project to create the connectivity and app.
+The Bluetooth connectivity uses the flutter_bluetooth_serial library from pub.dev created by AgainPsychoX with the help of contributors, Eduardo Folly, Martin Mauch ,and Patryk Ludwikowski. This library uses serial port profile for moving data over RFCOMM and is used for Bluetooth Classic devices such as the HC-06. Some code has been referenced or used from the example on Github in this project to create the connectivity and app.
 
 ## Featured Sensors
 
